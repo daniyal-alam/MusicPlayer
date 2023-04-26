@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="x-icon" href="songpic.jpeg">
+    <title>Music Player</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="album">
+        <img src="songpic.jpeg" width="300px" height="250px" class="musicimage" title="songimage">
+        </div>
+
+        <div id="info">
+            <h3 id="musicname">Tu aa k dekh le</h3>
+            <p id="artistname">King</p>
+        </div>
+
+        <audio src="Tu-Aake-Dekhle_320(PagalWorld).mp3" id="audio"></audio>
+        <div class="progress-bar">
+            <div class="progress" id="progress"></div>
+            <div class="seek" id="seek"></div>
+        </div>
+
+        <div id="timer">
+            <p id="currenttime">0:00</p>
+            <p id="totaltime">5:23</p>
+        </div>
+
+        <div id="media-controls">
+            <button id="play"><img src="play.png" width="45px" height="45px" class="playimage" title="play"></button>
+        </div>
+    </div>
+
+    
+</body>
+<script src="mp.js"></script>
+</html>
